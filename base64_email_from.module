@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Contains Hooks.
+ */
+
+use Drupal\base64_email_from\Hook\HookPhpmailAlterFromAlter;
+
+/**
+ * Implements hook_phpmail_alter_from_alter().
+ */
+function base64_email_from_phpmail_alter_from_alter(&$mail) {
+  HookPhpmailAlterFromAlter::hook($mail);
+}

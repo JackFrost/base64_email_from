@@ -1,0 +1,6 @@
+name: Base64 email from
+description: 'Encode name from email line when exists'
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Synapse
